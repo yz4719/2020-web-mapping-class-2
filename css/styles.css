@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#space {
+   width: 70%;
+  height: 250px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  }
+.More {
+  padding: 10px;
+  background-color: #2196F3;
+  border: 1px solid #ccc;
+  }
+
+#Map {
+  width: 70%;
+  height: 300px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Cities {
+   border: 1px solid #ccc;
+   padding: 8px;
+   border-radius: 6px;
+   margin-bottom: 10px;
+}
+
+.Cities:hover {
+   background-color: #eee;
+   cursor: pointer;
+}
+.More:hover {
+   background-color: #eee;
+   cursor: pointer;
+}
+
+/* select all p tags that have class City-name
+ */
+p {
+  margin: 0;
+}
