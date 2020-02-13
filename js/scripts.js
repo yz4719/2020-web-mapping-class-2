@@ -1,5 +1,5 @@
 // when something with class album-list-cover is clicked, run some code
-$('.Cities').on('click', function() {
+$('.Cities').on('click', function():{$('mybutton').text('The Correct Answer Is Shanghai!') {
 	// pull out the album cover url from the element's attributes
 	var mapUrl = $(this).attr('onclick')
   // log the album cover url to the console
