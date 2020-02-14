@@ -24,14 +24,14 @@ body {
   background-repeat: no-repeat;
 }
 
-.Cities {
+.cities {
    border: 1px solid #ccc;
    padding: 8px;
    border-radius: 6px;
    margin-bottom: 10px;
 }
 
-.Cities:hover {
+.cities:hover {
    background-color: #eee;
    cursor: pointer;
 }
